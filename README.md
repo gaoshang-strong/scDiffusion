@@ -16,4 +16,6 @@ Here, we use Human Cell Atlas as training set to build scDiffusion as a validati
 
 ![alt text](https://github.com/gaoshang-strong/scDiffusion/blob/main/real_vs_simulated_data_separated.png)
 
+The plot on the the left (orange) is the umap of real single cell data randome selected from Human Cell Atlas. The plot on the right (blue) is the umap of generated single cell data from scDiffusion.
+
 Secondly, we will use scDiffusion to construct a single-cell gene expression editor (scGEditor). Inspired by the SDEdit model https://arxiv.org/abs/2108.01073, this model modifies existing single-cell transcriptome data to simulate a specific type of experimental intervention. The main idea is to adjust the sampling process of scGM, intervening in the output at each sampling step, thereby generating specific types of single-cell transcriptome data.
